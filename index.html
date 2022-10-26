@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Dashboard</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css">
+</head>
+
+<body>
+
+    <div class="jumbotron">
+        <h1 class="display-4">Weather Dashboard</h1>
+    </div>
+
+    <div class="card">
+        <div class="row">
+        <div class="col-sm-4 bg-light float-left">
+            <h4 class=><strong>Search for a City:</strong></h4>
+            <div class="input-group mb-3">
+                <input type="text" class="form-control" placeholder="Enter city" aria-describedby="input">
+                <div class="input-group-append">
+                    <button class="btn btn-primary" type="submit">Search</button><i class="fa fa-search"></i></button>
+                </div>
+            </div>
+            
+    <div class="search history">
+        <h4 class="card-header">Search History</h4>
+        </div>
+    </div>
+
+    <div class="col-lg-8 bg-light float-right">
+        <div>
+        <h4 class="subtitle text bg-light">Current Weather</h4>
+        <div class="city"></div>
+        </div>
+        
+        <div>
+        <h4 class="subtitle text bg-light">5 Day Forecast</h4>
+        <div class="five-day-forecast"></div>
+    </div>
+
+    
+    <script src="./assets/script.js"></script>
+</body>
+
+</html>
